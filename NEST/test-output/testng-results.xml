@@ -77,16 +77,16 @@
       <![CDATA[Details are correct]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40190" started-at="2018-07-01T00:04:38Z" finished-at="2018-07-01T00:05:18Z">
+  <suite name="Default suite" duration-ms="51342" started-at="2018-07-01T07:39:11Z" finished-at="2018-07-01T07:40:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40190" started-at="2018-07-01T00:04:38Z" finished-at="2018-07-01T00:05:18Z">
+    <test name="Default test" duration-ms="51342" started-at="2018-07-01T07:39:11Z" finished-at="2018-07-01T07:40:02Z">
       <class name="testScript.Test1">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="7681" started-at="2018-07-01T05:34:38Z" finished-at="2018-07-01T05:34:45Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="launchBrowser" is-config="true" duration-ms="8192" started-at="2018-07-01T13:09:11Z" finished-at="2018-07-01T13:09:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testNESTHome()[pri:0, instance:testScript.Test1@55f3ddb1]" name="testNESTHome" duration-ms="31623" started-at="2018-07-01T05:34:45Z" finished-at="2018-07-01T05:35:17Z">
+        <test-method status="PASS" signature="testNESTHome()[pri:0, instance:testScript.Test1@55f3ddb1]" name="testNESTHome" duration-ms="42358" started-at="2018-07-01T13:09:19Z" finished-at="2018-07-01T13:10:02Z">
           <reporter-output>
             <line>
               <![CDATA[Element is present]]>
@@ -165,7 +165,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testNESTHome -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="812" started-at="2018-07-01T05:35:17Z" finished-at="2018-07-01T05:35:18Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@55f3ddb1]" name="closeBrowser" is-config="true" duration-ms="712" started-at="2018-07-01T13:10:02Z" finished-at="2018-07-01T13:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

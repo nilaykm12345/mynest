@@ -1,6 +1,8 @@
 package testScript;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
@@ -55,8 +57,12 @@ public class Test1 extends BaseTest
 			nestempsgnup.findElement(nestempsgnup.postFindAdd());
 			nestempsgnup.postFindAdd().click();
 			
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			
 			nestempsgnup.findElement(nestempsgnup.selectAdd());
 			nestempsgnup.selectAdd().click();
+			
+			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			
 			nestempsgnup.findElement(nestempsgnup.emailAdd());
 			nestempsgnup.emailAdd().sendKeys("n50k5555@gmail.com"+Keys.ENTER);
