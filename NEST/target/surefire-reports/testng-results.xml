@@ -1,31 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Element is present]]>
     </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is not present]]>
+    </line>
+    <line>
+      <![CDATA[Details are incorrect. Please enter the details correctly]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="21693" started-at="2018-06-30T20:45:40Z" finished-at="2018-06-30T20:46:02Z">
+  <suite name="Command line suite" duration-ms="133587" started-at="2018-07-01T07:03:38Z" finished-at="2018-07-01T07:05:51Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="21693" started-at="2018-06-30T20:45:40Z" finished-at="2018-06-30T20:46:02Z">
+    <test name="Command line test" duration-ms="133587" started-at="2018-07-01T07:03:38Z" finished-at="2018-07-01T07:05:51Z">
       <class name="testScript.Test1">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@3fb6a447]" name="launchBrowser" is-config="true" duration-ms="8038" started-at="2018-06-30T20:45:40Z" finished-at="2018-06-30T20:45:48Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test1@79b4d0f]" name="launchBrowser" is-config="true" duration-ms="12149" started-at="2018-07-01T07:03:38Z" finished-at="2018-07-01T07:03:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testNESTHome()[pri:0, instance:testScript.Test1@3fb6a447]" name="testNESTHome" duration-ms="13625" started-at="2018-06-30T20:45:48Z" finished-at="2018-06-30T20:46:02Z">
+        <test-method status="PASS" signature="testNESTHome()[pri:0, instance:testScript.Test1@79b4d0f]" name="testNESTHome" duration-ms="91152" started-at="2018-07-01T07:03:50Z" finished-at="2018-07-01T07:05:21Z">
           <reporter-output>
             <line>
               <![CDATA[Element is present]]>
             </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is not present]]>
+            </line>
+            <line>
+              <![CDATA[Details are incorrect. Please enter the details correctly]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testNESTHome -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@3fb6a447]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2018-06-30T20:46:02Z" finished-at="2018-06-30T20:46:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test1@79b4d0f]" name="closeBrowser" is-config="true" duration-ms="884" started-at="2018-07-01T07:05:21Z" finished-at="2018-07-01T07:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScript.Test1 -->
+      <class name="testScript.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testScript.Test2@6b2fad11]" name="launchBrowser" is-config="true" duration-ms="4546" started-at="2018-07-01T07:05:22Z" finished-at="2018-07-01T07:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SelfEmployedSgnup()[pri:0, instance:testScript.Test2@6b2fad11]" name="SelfEmployedSgnup" duration-ms="23985" started-at="2018-07-01T07:05:27Z" finished-at="2018-07-01T07:05:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SelfEmployedSgnup -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.Test2@6b2fad11]" name="closeBrowser" is-config="true" duration-ms="795" started-at="2018-07-01T07:05:51Z" finished-at="2018-07-01T07:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.Test2 -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
